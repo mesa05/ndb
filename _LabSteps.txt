@@ -30,8 +30,11 @@ VirtualBox 虛擬機器設定如下:
 - 第二張網卡: 「僅限主機」介面卡
 - 安裝 Ubuntu Server 16.04
 
+<Note> 請至下列網址下載安裝 (Windows、OS X 版) VirtualBox:
+https://www.virtualbox.org/
 
-詳細操作步驟:
+
+【詳細操作步驟】
 
 VirtualBox 功能表: 機器 | 新增
 名稱和作業系統:
@@ -52,6 +55,12 @@ ubuntu-16.04-server-amd64.iso
 點按「網路」，確定介面卡啟用 NAT
 點按介面卡2, 勾選啟用網路卡並且選擇「僅限主機介面卡」
 <確定>
+
+
+<Note> Ubuntu 光碟檔，請至下列網址下載:
+(請選用 Ubuntu 伺服器版本 + 16.04 + 64 位元版本)
+https://www.ubuntu-tw.org/modules/tinyd0/
+
 
 
 滑鼠點按新建的 manager 機器 | 點按工具列的「啟動」
