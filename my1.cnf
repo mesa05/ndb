@@ -1,0 +1,6 @@
+[mysqld]
+ndbcluster # run NDB storage engine
+ndb-connectstring=manager.mysql.cluster
+
+[mysql_cluster]
+ndb-connectstring=manager.mysql.cluster

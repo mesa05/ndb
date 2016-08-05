@@ -1,0 +1,22 @@
+[ndb_mgmd]
+# Management process options:
+hostname=manager.mysql.cluster  # Hostname of the manager
+datadir=/var/lib/mysql-cluster  # Directory for the log files
+
+[ndbd]
+hostname=node1.mysql.cluster    # Hostname of the first data node
+datadir=/usr/local/mysql/data   # Remote directory for the data files
+
+[ndbd]
+hostname=node2.mysql.cluster    # Hostname of the second data node
+datadir=/usr/local/mysql/data   # Remote directory for the data files
+
+[mysqld]
+hostname=manager.mysql.cluster
+
+[mysqld]
+hostname=node1.mysql.cluster
+
+[mysqld]
+hostname=node2.mysql.cluster
+
